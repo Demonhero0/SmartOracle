@@ -1,0 +1,12 @@
+{
+    "0x8764f2c305b79680cfcc3398a96aedea9260f7ff": {
+        "logic": [
+            {
+                "address": "0x8764f2c305b79680cfcc3398a96aedea9260f7ff",
+                "contractName": "ValueMultiVaultBank",
+                "mainContractPath": "0x8764f2c305b79680cfcc3398a96aedea9260f7ff/contracts/0x8764f2c305b79680cfcc3398a96aedea9260f7ff/ValueMultiVaultBank.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea": {
+        "logic": [
+            {
+                "address": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea",
+                "contractName": "MoneyMarket",
+                "mainContractPath": "0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea/contracts/0x0eee3e3828a45f7601d5f54bf49bb01d1a9df5ea/MoneyMarket.sol",
+                "compilerVersion": "v0.4.24+commit.e67f0147"
+            }
+        ]
+    }
+}

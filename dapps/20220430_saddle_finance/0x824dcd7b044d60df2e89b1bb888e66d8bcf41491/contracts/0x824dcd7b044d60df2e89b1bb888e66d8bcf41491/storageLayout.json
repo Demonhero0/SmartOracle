@@ -1,0 +1,284 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "MetaSwap",
+            "label": "Initializable_own__initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 1,
+            "contract": "MetaSwap",
+            "label": "Initializable_own__initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 2,
+            "contract": "MetaSwap",
+            "label": "ContextUpgradeable_own___gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "uint256[50]"
+        },
+        {
+            "astId": 3,
+            "contract": "MetaSwap",
+            "label": "OwnableUpgradeable_own__owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "address"
+        },
+        {
+            "astId": 4,
+            "contract": "MetaSwap",
+            "label": "OwnableUpgradeable_own___gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "uint256[49]"
+        },
+        {
+            "astId": 5,
+            "contract": "MetaSwap",
+            "label": "PausableUpgradeable_own__paused",
+            "offset": 0,
+            "slot": "101",
+            "type": "bool"
+        },
+        {
+            "astId": 6,
+            "contract": "MetaSwap",
+            "label": "PausableUpgradeable_own___gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "uint256[49]"
+        },
+        {
+            "astId": 7,
+            "contract": "MetaSwap",
+            "label": "ReentrancyGuardUpgradeable_own__status",
+            "offset": 0,
+            "slot": "151",
+            "type": "uint256"
+        },
+        {
+            "astId": 8,
+            "contract": "MetaSwap",
+            "label": "ReentrancyGuardUpgradeable_own___gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "uint256[49]"
+        },
+        {
+            "astId": 9,
+            "contract": "MetaSwap",
+            "label": "Swap_own_swapStorage",
+            "offset": 0,
+            "slot": "201",
+            "type": "SwapUtils.Swap"
+        },
+        {
+            "astId": 10,
+            "contract": "MetaSwap",
+            "label": "Swap_own_tokenIndexes",
+            "offset": 0,
+            "slot": "211",
+            "type": "mapping(address => uint8)"
+        },
+        {
+            "astId": 11,
+            "contract": "MetaSwap",
+            "label": "metaSwapStorage",
+            "offset": 0,
+            "slot": "212",
+            "type": "MetaSwapUtils.MetaSwap"
+        }
+    ],
+    "types": {
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "uint256[50]": {
+            "base": "uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "uint256[49]": {
+            "base": "uint256",
+            "encoding": "inplace",
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+        },
+        "IERC20": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IERC20[]": {
+            "base": "IERC20",
+            "encoding": "dynamic_array",
+            "label": "IERC20[]",
+            "numberOfBytes": "32"
+        },
+        "uint256[]": {
+            "base": "uint256",
+            "encoding": "dynamic_array",
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+        },
+        "SwapUtils.Swap": {
+            "encoding": "inplace",
+            "label": "SwapUtils.Swap",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "MetaSwap",
+                    "label": "initialA",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "MetaSwap",
+                    "label": "futureA",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "MetaSwap",
+                    "label": "initialATime",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "MetaSwap",
+                    "label": "futureATime",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 4,
+                    "contract": "MetaSwap",
+                    "label": "swapFee",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 5,
+                    "contract": "MetaSwap",
+                    "label": "adminFee",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 6,
+                    "contract": "MetaSwap",
+                    "label": "lpToken",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "LPToken"
+                },
+                {
+                    "astId": 7,
+                    "contract": "MetaSwap",
+                    "label": "pooledTokens",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "IERC20[]"
+                },
+                {
+                    "astId": 8,
+                    "contract": "MetaSwap",
+                    "label": "tokenPrecisionMultipliers",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256[]"
+                },
+                {
+                    "astId": 9,
+                    "contract": "MetaSwap",
+                    "label": "balances",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256[]"
+                }
+            ],
+            "numberOfBytes": 3200
+        },
+        "mapping(address => uint8)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => uint8)",
+            "numberOfBytes": "32",
+            "value": "uint8"
+        },
+        "uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+        },
+        "MetaSwapUtils.MetaSwap": {
+            "encoding": "inplace",
+            "label": "MetaSwapUtils.MetaSwap",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "MetaSwap",
+                    "label": "baseSwap",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "ISwap"
+                },
+                {
+                    "astId": 1,
+                    "contract": "MetaSwap",
+                    "label": "baseVirtualPrice",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "MetaSwap",
+                    "label": "baseCacheLastUpdated",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "MetaSwap",
+                    "label": "baseTokens",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "IERC20[]"
+                }
+            ],
+            "numberOfBytes": 512
+        }
+    }
+}

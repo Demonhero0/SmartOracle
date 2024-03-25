@@ -1,0 +1,12 @@
+{
+    "0xd45740ab9ec920bedbd9bab2e863519e59731941": {
+        "logic": [
+            {
+                "address": "0xeac2a259f3ebb8fd1097aeccaa62e73b6e43d5bf",
+                "contractName": "SchnoodleV9",
+                "mainContractPath": "0xd45740ab9ec920bedbd9bab2e863519e59731941/contracts/0xeac2a259f3ebb8fd1097aeccaa62e73b6e43d5bf/contracts/SchnoodleV9.sol",
+                "compilerVersion": "v0.8.15+commit.e14f2714"
+            }
+        ]
+    }
+}

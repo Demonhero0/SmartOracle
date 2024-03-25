@@ -1,0 +1,58 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "UniswapConnector03",
+            "label": "ReentrancyGuard_own__status",
+            "offset": 0,
+            "slot": "0",
+            "type": "uint256"
+        },
+        {
+            "astId": 1,
+            "contract": "UniswapConnector03",
+            "label": "trader",
+            "offset": 0,
+            "slot": "1",
+            "type": "ITrader"
+        },
+        {
+            "astId": 2,
+            "contract": "UniswapConnector03",
+            "label": "factory",
+            "offset": 0,
+            "slot": "2",
+            "type": "IUniswapV2Factory"
+        },
+        {
+            "astId": 3,
+            "contract": "UniswapConnector03",
+            "label": "router",
+            "offset": 0,
+            "slot": "3",
+            "type": "IUniswapV2Router02"
+        }
+    ],
+    "types": {
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "ITrader": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IUniswapV2Factory": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IUniswapV2Router02": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        }
+    }
+}

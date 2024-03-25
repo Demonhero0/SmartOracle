@@ -1,0 +1,153 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "ControllerV4",
+            "label": "onesplit",
+            "offset": 0,
+            "slot": "0",
+            "type": "address"
+        },
+        {
+            "astId": 1,
+            "contract": "ControllerV4",
+            "label": "governance",
+            "offset": 0,
+            "slot": "1",
+            "type": "address"
+        },
+        {
+            "astId": 2,
+            "contract": "ControllerV4",
+            "label": "strategist",
+            "offset": 0,
+            "slot": "2",
+            "type": "address"
+        },
+        {
+            "astId": 3,
+            "contract": "ControllerV4",
+            "label": "devfund",
+            "offset": 0,
+            "slot": "3",
+            "type": "address"
+        },
+        {
+            "astId": 4,
+            "contract": "ControllerV4",
+            "label": "treasury",
+            "offset": 0,
+            "slot": "4",
+            "type": "address"
+        },
+        {
+            "astId": 5,
+            "contract": "ControllerV4",
+            "label": "timelock",
+            "offset": 0,
+            "slot": "5",
+            "type": "address"
+        },
+        {
+            "astId": 6,
+            "contract": "ControllerV4",
+            "label": "convenienceFee",
+            "offset": 0,
+            "slot": "6",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "ControllerV4",
+            "label": "jars",
+            "offset": 0,
+            "slot": "7",
+            "type": "mapping(address => address)"
+        },
+        {
+            "astId": 8,
+            "contract": "ControllerV4",
+            "label": "strategies",
+            "offset": 0,
+            "slot": "8",
+            "type": "mapping(address => address)"
+        },
+        {
+            "astId": 9,
+            "contract": "ControllerV4",
+            "label": "converters",
+            "offset": 0,
+            "slot": "9",
+            "type": "mapping(address => mapping(address => address))"
+        },
+        {
+            "astId": 10,
+            "contract": "ControllerV4",
+            "label": "approvedStrategies",
+            "offset": 0,
+            "slot": "10",
+            "type": "mapping(address => mapping(address => bool))"
+        },
+        {
+            "astId": 11,
+            "contract": "ControllerV4",
+            "label": "approvedJarConverters",
+            "offset": 0,
+            "slot": "11",
+            "type": "mapping(address => bool)"
+        },
+        {
+            "astId": 12,
+            "contract": "ControllerV4",
+            "label": "split",
+            "offset": 0,
+            "slot": "12",
+            "type": "uint256"
+        }
+    ],
+    "types": {
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => address)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32",
+            "value": "address"
+        },
+        "mapping(address => mapping(address => address))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(address => address))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => address)"
+        },
+        "mapping(address => mapping(address => bool))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(address => bool))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => bool)"
+        },
+        "mapping(address => bool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "bool"
+        },
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        }
+    }
+}

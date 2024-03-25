@@ -1,0 +1,12 @@
+{
+    "0x5e181bdde2fa8af7265cb3124735e9a13779c021": {
+        "logic": [
+            {
+                "address": "0x5e181bdde2fa8af7265cb3124735e9a13779c021",
+                "contractName": "CErc20",
+                "mainContractPath": "0x5e181bdde2fa8af7265cb3124735e9a13779c021/contracts/0x5e181bdde2fa8af7265cb3124735e9a13779c021/CErc20.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

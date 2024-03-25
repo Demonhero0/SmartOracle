@@ -1,0 +1,12 @@
+{
+    "0x63475ab76e578ec27ae2494d29e1df288817d931": {
+        "logic": [
+            {
+                "address": "0x67e70eeb9dd170f7b4a9ef620720c9069d5e706c",
+                "contractName": "CErc20Delegate",
+                "mainContractPath": "0x63475ab76e578ec27ae2494d29e1df288817d931/contracts/0x67e70eeb9dd170f7b4a9ef620720c9069d5e706c/CErc20Delegate.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

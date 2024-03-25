@@ -1,0 +1,12 @@
+{
+    "0xded1219b5ba4da3a9d57c9f12c0d5da50f2fc4a2": {
+        "logic": [
+            {
+                "address": "0xded1219b5ba4da3a9d57c9f12c0d5da50f2fc4a2",
+                "contractName": "iVault",
+                "mainContractPath": "0xded1219b5ba4da3a9d57c9f12c0d5da50f2fc4a2/contracts/0xded1219b5ba4da3a9d57c9f12c0d5da50f2fc4a2/iVault.sol",
+                "compilerVersion": "v0.5.16+commit.9c3226ce"
+            }
+        ]
+    }
+}

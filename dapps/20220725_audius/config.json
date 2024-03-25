@@ -1,0 +1,12 @@
+{
+    "0x4deca517d6817b6510798b7328f2314d3003abac": {
+        "logic": [
+            {
+                "address": "0x35dd16dfa4ea1522c29ddd087e8f076cad0ae5e8",
+                "contractName": "Governance",
+                "mainContractPath": "0x4deca517d6817b6510798b7328f2314d3003abac/contracts/0x35dd16dfa4ea1522c29ddd087e8f076cad0ae5e8/Governance.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

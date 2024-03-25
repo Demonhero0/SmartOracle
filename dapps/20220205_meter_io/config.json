@@ -1,0 +1,12 @@
+{
+    "0xa2a22b46b8df38cd7c55e6bf32ea5a32637cf2b1": {
+        "logic": [
+            {
+                "address": "0xa2a22b46b8df38cd7c55e6bf32ea5a32637cf2b1",
+                "contractName": "Bridge",
+                "mainContractPath": "0xa2a22b46b8df38cd7c55e6bf32ea5a32637cf2b1/contracts/0xa2a22b46b8df38cd7c55e6bf32ea5a32637cf2b1/Bridge.sol",
+                "compilerVersion": "v0.6.4+commit.1dca32f3"
+            }
+        ]
+    }
+}

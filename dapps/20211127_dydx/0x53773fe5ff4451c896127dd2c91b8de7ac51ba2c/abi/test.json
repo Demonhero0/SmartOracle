@@ -1,0 +1,34 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "minUsdcAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "startKey",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "positionId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "exchange",
+                "type": "address"
+            },
+            {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+            }
+        ],
+        "name": "depositERC20",
+        "stateMutability": "payable",
+        "type": "function"
+    }
+]

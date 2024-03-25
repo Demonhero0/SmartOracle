@@ -1,0 +1,12 @@
+{
+    "0x951d51baefb72319d9fbe941e1615938d89abfe2": {
+        "logic": [
+            {
+                "address": "0x951d51baefb72319d9fbe941e1615938d89abfe2",
+                "contractName": "oToken",
+                "mainContractPath": "0x951d51baefb72319d9fbe941e1615938d89abfe2/contracts/0x951d51baefb72319d9fbe941e1615938d89abfe2/oToken.sol",
+                "compilerVersion": "v0.5.10+commit.5a6ea5b1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0x17e8ca1b4798b97602895f63206afcd1fc90ca5f": {
+        "logic": [
+            {
+                "address": "0x17e8ca1b4798b97602895f63206afcd1fc90ca5f",
+                "contractName": "Proxy",
+                "mainContractPath": "0x17e8ca1b4798b97602895f63206afcd1fc90ca5f/contracts/0x17e8ca1b4798b97602895f63206afcd1fc90ca5f/Proxy.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

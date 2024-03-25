@@ -1,0 +1,12 @@
+{
+    "0x5f58058c0ec971492166763c8c22632b583f667f": {
+        "logic": [
+            {
+                "address": "0x5f58058c0ec971492166763c8c22632b583f667f",
+                "contractName": "BancorNetwork",
+                "mainContractPath": "0x5f58058c0ec971492166763c8c22632b583f667f/contracts/0x5f58058c0ec971492166763c8c22632b583f667f/BancorNetwork.sol",
+                "compilerVersion": "v0.4.26+commit.4563c3fc"
+            }
+        ]
+    }
+}

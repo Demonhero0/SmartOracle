@@ -1,0 +1,381 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "Bridge",
+            "label": "Pausable_own__paused",
+            "offset": 0,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 1,
+            "contract": "Bridge",
+            "label": "AccessControl_own__roles",
+            "offset": 0,
+            "slot": "1",
+            "type": "mapping(bytes32 => AccessControl.RoleData)"
+        },
+        {
+            "astId": 2,
+            "contract": "Bridge",
+            "label": "_chainID",
+            "offset": 0,
+            "slot": "2",
+            "type": "uint8"
+        },
+        {
+            "astId": 3,
+            "contract": "Bridge",
+            "label": "_relayerThreshold",
+            "offset": 0,
+            "slot": "3",
+            "type": "uint256"
+        },
+        {
+            "astId": 4,
+            "contract": "Bridge",
+            "label": "_totalRelayers",
+            "offset": 0,
+            "slot": "4",
+            "type": "uint256"
+        },
+        {
+            "astId": 5,
+            "contract": "Bridge",
+            "label": "_totalOperators",
+            "offset": 0,
+            "slot": "5",
+            "type": "uint256"
+        },
+        {
+            "astId": 6,
+            "contract": "Bridge",
+            "label": "_totalProposals",
+            "offset": 0,
+            "slot": "6",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "Bridge",
+            "label": "_fee",
+            "offset": 0,
+            "slot": "7",
+            "type": "uint256"
+        },
+        {
+            "astId": 8,
+            "contract": "Bridge",
+            "label": "_expiry",
+            "offset": 0,
+            "slot": "8",
+            "type": "uint256"
+        },
+        {
+            "astId": 9,
+            "contract": "Bridge",
+            "label": "_wtokenAddress",
+            "offset": 0,
+            "slot": "9",
+            "type": "address"
+        },
+        {
+            "astId": 10,
+            "contract": "Bridge",
+            "label": "_depositCounts",
+            "offset": 0,
+            "slot": "10",
+            "type": "mapping(uint8 => uint64)"
+        },
+        {
+            "astId": 11,
+            "contract": "Bridge",
+            "label": "_specialFee",
+            "offset": 0,
+            "slot": "11",
+            "type": "mapping(uint8 => uint256)"
+        },
+        {
+            "astId": 12,
+            "contract": "Bridge",
+            "label": "_resourceIDToHandlerAddress",
+            "offset": 0,
+            "slot": "12",
+            "type": "mapping(bytes32 => address)"
+        },
+        {
+            "astId": 13,
+            "contract": "Bridge",
+            "label": "_depositRecords",
+            "offset": 0,
+            "slot": "13",
+            "type": "mapping(uint64 => mapping(uint8 => bytes))"
+        },
+        {
+            "astId": 14,
+            "contract": "Bridge",
+            "label": "_proposals",
+            "offset": 0,
+            "slot": "14",
+            "type": "mapping(uint72 => mapping(bytes32 => Bridge.Proposal))"
+        },
+        {
+            "astId": 15,
+            "contract": "Bridge",
+            "label": "_hasVotedOnProposal",
+            "offset": 0,
+            "slot": "15",
+            "type": "mapping(uint72 => mapping(bytes32 => mapping(address => bool)))"
+        }
+    ],
+    "types": {
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "mapping(bytes32 => AccessControl.RoleData)": {
+            "encoding": "mapping",
+            "key": "bytes32",
+            "label": "mapping(bytes32 => AccessControl.RoleData)",
+            "numberOfBytes": "32",
+            "value": "AccessControl.RoleData"
+        },
+        "bytes32": {
+            "encoding": "inplace",
+            "label": "bytes32",
+            "numberOfBytes": "32"
+        },
+        "bytes32[]": {
+            "base": "bytes32",
+            "encoding": "dynamic_array",
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(bytes32 => uint256)": {
+            "encoding": "mapping",
+            "key": "bytes32",
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "EnumerableSet.Set": {
+            "encoding": "inplace",
+            "label": "EnumerableSet.Set",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Bridge",
+                    "label": "_values",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32[]"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Bridge",
+                    "label": "_indexes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(bytes32 => uint256)"
+                }
+            ],
+            "numberOfBytes": 128
+        },
+        "EnumerableSet.AddressSet": {
+            "encoding": "inplace",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Bridge",
+                    "label": "_inner",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "EnumerableSet.Set"
+                }
+            ],
+            "numberOfBytes": 64
+        },
+        "AccessControl.RoleData": {
+            "encoding": "inplace",
+            "label": "AccessControl.RoleData",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Bridge",
+                    "label": "members",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "EnumerableSet.AddressSet"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Bridge",
+                    "label": "adminRole",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32"
+                }
+            ],
+            "numberOfBytes": 192
+        },
+        "uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "mapping(uint8 => uint64)": {
+            "encoding": "mapping",
+            "key": "uint8",
+            "label": "mapping(uint8 => uint64)",
+            "numberOfBytes": "32",
+            "value": "uint64"
+        },
+        "uint64": {
+            "encoding": "inplace",
+            "label": "uint64",
+            "numberOfBytes": "8"
+        },
+        "mapping(uint8 => uint256)": {
+            "encoding": "mapping",
+            "key": "uint8",
+            "label": "mapping(uint8 => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "mapping(bytes32 => address)": {
+            "encoding": "mapping",
+            "key": "bytes32",
+            "label": "mapping(bytes32 => address)",
+            "numberOfBytes": "32",
+            "value": "address"
+        },
+        "mapping(uint64 => mapping(uint8 => bytes))": {
+            "encoding": "mapping",
+            "key": "uint64",
+            "label": "mapping(uint64 => mapping(uint8 => bytes))",
+            "numberOfBytes": "32",
+            "value": "mapping(uint8 => bytes)"
+        },
+        "mapping(uint8 => bytes)": {
+            "encoding": "mapping",
+            "key": "uint8",
+            "label": "mapping(uint8 => bytes)",
+            "numberOfBytes": "32",
+            "value": "bytes"
+        },
+        "bytes": {
+            "encoding": "bytes",
+            "label": "bytes",
+            "numberOfBytes": "32"
+        },
+        "mapping(uint72 => mapping(bytes32 => Bridge.Proposal))": {
+            "encoding": "mapping",
+            "key": "uint72",
+            "label": "mapping(uint72 => mapping(bytes32 => Bridge.Proposal))",
+            "numberOfBytes": "32",
+            "value": "mapping(bytes32 => Bridge.Proposal)"
+        },
+        "mapping(bytes32 => Bridge.Proposal)": {
+            "encoding": "mapping",
+            "key": "bytes32",
+            "label": "mapping(bytes32 => Bridge.Proposal)",
+            "numberOfBytes": "32",
+            "value": "Bridge.Proposal"
+        },
+        "address[]": {
+            "base": "address",
+            "encoding": "dynamic_array",
+            "label": "address[]",
+            "numberOfBytes": "32"
+        },
+        "Bridge.Proposal": {
+            "encoding": "inplace",
+            "label": "Bridge.Proposal",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Bridge",
+                    "label": "_resourceID",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Bridge",
+                    "label": "_dataHash",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32"
+                },
+                {
+                    "astId": 2,
+                    "contract": "Bridge",
+                    "label": "_yesVotes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address[]"
+                },
+                {
+                    "astId": 3,
+                    "contract": "Bridge",
+                    "label": "_noVotes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address[]"
+                },
+                {
+                    "astId": 4,
+                    "contract": "Bridge",
+                    "label": "_status",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "Bridge.ProposalStatus"
+                },
+                {
+                    "astId": 5,
+                    "contract": "Bridge",
+                    "label": "_proposedBlock",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 1152
+        },
+        "mapping(uint72 => mapping(bytes32 => mapping(address => bool)))": {
+            "encoding": "mapping",
+            "key": "uint72",
+            "label": "mapping(uint72 => mapping(bytes32 => mapping(address => bool)))",
+            "numberOfBytes": "32",
+            "value": "mapping(bytes32 => mapping(address => bool))"
+        },
+        "mapping(bytes32 => mapping(address => bool))": {
+            "encoding": "mapping",
+            "key": "bytes32",
+            "label": "mapping(bytes32 => mapping(address => bool))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => bool)"
+        },
+        "mapping(address => bool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "bool"
+        }
+    }
+}

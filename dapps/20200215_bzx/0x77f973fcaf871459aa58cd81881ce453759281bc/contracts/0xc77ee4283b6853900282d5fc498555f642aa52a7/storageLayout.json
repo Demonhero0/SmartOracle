@@ -1,0 +1,448 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "LoanTokenLogicV4",
+            "label": "ReentrancyGuard_own_reentrancyLock",
+            "offset": 0,
+            "slot": "0",
+            "type": "uint256"
+        },
+        {
+            "astId": 1,
+            "contract": "LoanTokenLogicV4",
+            "label": "Ownable_own_owner",
+            "offset": 0,
+            "slot": "1",
+            "type": "address"
+        },
+        {
+            "astId": 2,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_name",
+            "offset": 0,
+            "slot": "2",
+            "type": "string"
+        },
+        {
+            "astId": 3,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_symbol",
+            "offset": 0,
+            "slot": "3",
+            "type": "string"
+        },
+        {
+            "astId": 4,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_decimals",
+            "offset": 0,
+            "slot": "4",
+            "type": "uint8"
+        },
+        {
+            "astId": 5,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_bZxContract",
+            "offset": 1,
+            "slot": "4",
+            "type": "address"
+        },
+        {
+            "astId": 6,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_bZxVault",
+            "offset": 0,
+            "slot": "5",
+            "type": "address"
+        },
+        {
+            "astId": 7,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_bZxOracle",
+            "offset": 0,
+            "slot": "6",
+            "type": "address"
+        },
+        {
+            "astId": 8,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_wethContract",
+            "offset": 0,
+            "slot": "7",
+            "type": "address"
+        },
+        {
+            "astId": 9,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_loanTokenAddress",
+            "offset": 0,
+            "slot": "8",
+            "type": "address"
+        },
+        {
+            "astId": 10,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenization_own_checkpointPrices_",
+            "offset": 0,
+            "slot": "9",
+            "type": "mapping(address => uint256)"
+        },
+        {
+            "astId": 11,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_isInitialized_",
+            "offset": 0,
+            "slot": "10",
+            "type": "bool"
+        },
+        {
+            "astId": 12,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_tokenizedRegistry",
+            "offset": 1,
+            "slot": "10",
+            "type": "address"
+        },
+        {
+            "astId": 13,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_baseRate",
+            "offset": 0,
+            "slot": "11",
+            "type": "uint256"
+        },
+        {
+            "astId": 14,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_rateMultiplier",
+            "offset": 0,
+            "slot": "12",
+            "type": "uint256"
+        },
+        {
+            "astId": 15,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_spreadMultiplier",
+            "offset": 0,
+            "slot": "13",
+            "type": "uint256"
+        },
+        {
+            "astId": 16,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_loanOrderHashes",
+            "offset": 0,
+            "slot": "14",
+            "type": "mapping(uint256 => bytes32)"
+        },
+        {
+            "astId": 17,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_loanOrderData",
+            "offset": 0,
+            "slot": "15",
+            "type": "mapping(bytes32 => LoanTokenStorage.LoanData)"
+        },
+        {
+            "astId": 18,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_leverageList",
+            "offset": 0,
+            "slot": "16",
+            "type": "uint256[]"
+        },
+        {
+            "astId": 19,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_burntTokenReserveList",
+            "offset": 0,
+            "slot": "17",
+            "type": "LoanTokenStorage.TokenReserves[]"
+        },
+        {
+            "astId": 20,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_burntTokenReserveListIndex",
+            "offset": 0,
+            "slot": "18",
+            "type": "mapping(address => LoanTokenStorage.ListIndex)"
+        },
+        {
+            "astId": 21,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_burntTokenReserved",
+            "offset": 0,
+            "slot": "19",
+            "type": "uint256"
+        },
+        {
+            "astId": 22,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_nextOwedLender_",
+            "offset": 0,
+            "slot": "20",
+            "type": "address"
+        },
+        {
+            "astId": 23,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_totalAssetBorrow",
+            "offset": 0,
+            "slot": "21",
+            "type": "uint256"
+        },
+        {
+            "astId": 24,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_checkpointSupply",
+            "offset": 0,
+            "slot": "22",
+            "type": "uint256"
+        },
+        {
+            "astId": 25,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_lastSettleTime_",
+            "offset": 0,
+            "slot": "23",
+            "type": "uint256"
+        },
+        {
+            "astId": 26,
+            "contract": "LoanTokenLogicV4",
+            "label": "LoanTokenStorage_own_initialPrice",
+            "offset": 0,
+            "slot": "24",
+            "type": "uint256"
+        },
+        {
+            "astId": 27,
+            "contract": "LoanTokenLogicV4",
+            "label": "AdvancedTokenStorage_own_balances",
+            "offset": 0,
+            "slot": "25",
+            "type": "mapping(address => uint256)"
+        },
+        {
+            "astId": 28,
+            "contract": "LoanTokenLogicV4",
+            "label": "AdvancedTokenStorage_own_allowed",
+            "offset": 0,
+            "slot": "26",
+            "type": "mapping(address => mapping(address => uint256))"
+        },
+        {
+            "astId": 29,
+            "contract": "LoanTokenLogicV4",
+            "label": "AdvancedTokenStorage_own_totalSupply_",
+            "offset": 0,
+            "slot": "27",
+            "type": "uint256"
+        },
+        {
+            "astId": 30,
+            "contract": "LoanTokenLogicV4",
+            "label": "target_",
+            "offset": 0,
+            "slot": "28",
+            "type": "address"
+        }
+    ],
+    "types": {
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "string": {
+            "encoding": "bytes",
+            "label": "string",
+            "numberOfBytes": "32"
+        },
+        "uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+        },
+        "mapping(address => uint256)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "mapping(uint256 => bytes32)": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => bytes32)",
+            "numberOfBytes": "32",
+            "value": "bytes32"
+        },
+        "bytes32": {
+            "encoding": "inplace",
+            "label": "bytes32",
+            "numberOfBytes": "32"
+        },
+        "mapping(bytes32 => LoanTokenStorage.LoanData)": {
+            "encoding": "mapping",
+            "key": "bytes32",
+            "label": "mapping(bytes32 => LoanTokenStorage.LoanData)",
+            "numberOfBytes": "32",
+            "value": "LoanTokenStorage.LoanData"
+        },
+        "LoanTokenStorage.LoanData": {
+            "encoding": "inplace",
+            "label": "LoanTokenStorage.LoanData",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "loanOrderHash",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32"
+                },
+                {
+                    "astId": 1,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "leverageAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "initialMarginAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "maintenanceMarginAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 4,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "maxDurationUnixTimestampSec",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 5,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "index",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 6,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "marginPremiumAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 7,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "collateralTokenAddress",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address"
+                }
+            ],
+            "numberOfBytes": 2048
+        },
+        "uint256[]": {
+            "base": "uint256",
+            "encoding": "dynamic_array",
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+        },
+        "LoanTokenStorage.TokenReserves": {
+            "encoding": "inplace",
+            "label": "LoanTokenStorage.TokenReserves",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "lender",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address"
+                },
+                {
+                    "astId": 1,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "amount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 128
+        },
+        "LoanTokenStorage.TokenReserves[]": {
+            "base": "LoanTokenStorage.TokenReserves",
+            "encoding": "dynamic_array",
+            "label": "LoanTokenStorage.TokenReserves[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => LoanTokenStorage.ListIndex)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => LoanTokenStorage.ListIndex)",
+            "numberOfBytes": "32",
+            "value": "LoanTokenStorage.ListIndex"
+        },
+        "LoanTokenStorage.ListIndex": {
+            "encoding": "inplace",
+            "label": "LoanTokenStorage.ListIndex",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "index",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "LoanTokenLogicV4",
+                    "label": "isSet",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bool"
+                }
+            ],
+            "numberOfBytes": 128
+        },
+        "mapping(address => mapping(address => uint256))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => uint256)"
+        }
+    }
+}

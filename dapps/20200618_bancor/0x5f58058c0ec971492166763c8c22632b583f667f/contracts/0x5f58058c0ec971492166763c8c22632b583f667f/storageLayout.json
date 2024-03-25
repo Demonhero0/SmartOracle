@@ -1,0 +1,97 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "BancorNetwork",
+            "label": "Owned_own_owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "address"
+        },
+        {
+            "astId": 1,
+            "contract": "BancorNetwork",
+            "label": "Owned_own_newOwner",
+            "offset": 0,
+            "slot": "1",
+            "type": "address"
+        },
+        {
+            "astId": 2,
+            "contract": "BancorNetwork",
+            "label": "ContractRegistryClient_own_registry",
+            "offset": 0,
+            "slot": "2",
+            "type": "IContractRegistry"
+        },
+        {
+            "astId": 3,
+            "contract": "BancorNetwork",
+            "label": "ContractRegistryClient_own_prevRegistry",
+            "offset": 0,
+            "slot": "3",
+            "type": "IContractRegistry"
+        },
+        {
+            "astId": 4,
+            "contract": "BancorNetwork",
+            "label": "ContractRegistryClient_own_onlyOwnerCanUpdateRegistry",
+            "offset": 20,
+            "slot": "3",
+            "type": "bool"
+        },
+        {
+            "astId": 5,
+            "contract": "BancorNetwork",
+            "label": "ReentrancyGuard_own_locked",
+            "offset": 21,
+            "slot": "3",
+            "type": "bool"
+        },
+        {
+            "astId": 6,
+            "contract": "BancorNetwork",
+            "label": "maxAffiliateFee",
+            "offset": 0,
+            "slot": "4",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "BancorNetwork",
+            "label": "etherTokens",
+            "offset": 0,
+            "slot": "5",
+            "type": "mapping(address => bool)"
+        }
+    ],
+    "types": {
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IContractRegistry": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => bool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "bool"
+        }
+    }
+}

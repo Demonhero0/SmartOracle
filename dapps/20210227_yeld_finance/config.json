@@ -1,0 +1,12 @@
+{
+    "0xe780cab7ca8014543f194fc431e6bf7dc5c16762": {
+        "logic": [
+            {
+                "address": "0xe780cab7ca8014543f194fc431e6bf7dc5c16762",
+                "contractName": "yDAI",
+                "mainContractPath": "0xe780cab7ca8014543f194fc431e6bf7dc5c16762/contracts/0xe780cab7ca8014543f194fc431e6bf7dc5c16762/yDAI.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

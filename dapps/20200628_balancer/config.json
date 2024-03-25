@@ -1,0 +1,12 @@
+{
+    "0x0e511aa1a137aad267dfe3a6bfca0b856c1a3682": {
+        "logic": [
+            {
+                "address": "0x0e511aa1a137aad267dfe3a6bfca0b856c1a3682",
+                "contractName": "BPool",
+                "mainContractPath": "0x0e511aa1a137aad267dfe3a6bfca0b856c1a3682/contracts/0x0e511aa1a137aad267dfe3a6bfca0b856c1a3682/BPool.sol",
+                "compilerVersion": "v0.5.12+commit.7709ece9"
+            }
+        ]
+    }
+}

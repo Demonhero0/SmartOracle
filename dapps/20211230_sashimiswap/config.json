@@ -1,0 +1,12 @@
+{
+    "0xe4fe6a45f354e845f954cddee6084603cedb9410": {
+        "logic": [
+            {
+                "address": "0xe4fe6a45f354e845f954cddee6084603cedb9410",
+                "contractName": "UniswapV2Router02",
+                "mainContractPath": "0xe4fe6a45f354e845f954cddee6084603cedb9410/contracts/0xe4fe6a45f354e845f954cddee6084603cedb9410/UniswapV2Router02.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

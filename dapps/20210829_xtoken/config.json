@@ -1,0 +1,12 @@
+{
+    "0x7cd5e2d0056a7a7f09cbb86e540ef4f6dccc97dd": {
+        "logic": [
+            {
+                "address": "0x55dbb68f69337fcabe261f296b50b4723d333830",
+                "contractName": "xSNXAdmin",
+                "mainContractPath": "0x7cd5e2d0056a7a7f09cbb86e540ef4f6dccc97dd/contracts/0x55dbb68f69337fcabe261f296b50b4723d333830/contracts/xSNXAdmin.sol",
+                "compilerVersion": "v0.5.15+commit.6a57276f"
+            }
+        ]
+    }
+}

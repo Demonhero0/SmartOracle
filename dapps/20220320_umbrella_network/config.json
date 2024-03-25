@@ -1,0 +1,12 @@
+{
+    "0xb3fb1d01b07a706736ca175f827e4f56021b85de": {
+        "logic": [
+            {
+                "address": "0xb3fb1d01b07a706736ca175f827e4f56021b85de",
+                "contractName": "StakingRewards",
+                "mainContractPath": "0xb3fb1d01b07a706736ca175f827e4f56021b85de/contracts/0xb3fb1d01b07a706736ca175f827e4f56021b85de/contracts/staking/StakingRewards.sol",
+                "compilerVersion": "v0.7.5+commit.eb77ed08"
+            }
+        ]
+    }
+}

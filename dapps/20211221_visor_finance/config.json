@@ -1,0 +1,12 @@
+{
+    "0xc9f27a50f82571c1c8423a42970613b8dbda14ef": {
+        "logic": [
+            {
+                "address": "0xc9f27a50f82571c1c8423a42970613b8dbda14ef",
+                "contractName": "RewardsHypervisor",
+                "mainContractPath": "0xc9f27a50f82571c1c8423a42970613b8dbda14ef/contracts/0xc9f27a50f82571c1c8423a42970613b8dbda14ef/contracts/RewardsHypervisor.sol",
+                "compilerVersion": "v0.7.6+commit.7338295f"
+            }
+        ]
+    }
+}

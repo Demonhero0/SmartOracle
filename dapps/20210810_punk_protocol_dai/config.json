@@ -1,0 +1,12 @@
+{
+    "0x929cb86046e421abf7e1e02de7836742654d49d6": {
+        "logic": [
+            {
+                "address": "0x929cb86046e421abf7e1e02de7836742654d49d6",
+                "contractName": "CompoundModel",
+                "mainContractPath": "0x929cb86046e421abf7e1e02de7836742654d49d6/contracts/0x929cb86046e421abf7e1e02de7836742654d49d6/Users/jacob/Developer/DeFiWorkspace/punk.protocol/contracts/models/CompoundModel.sol",
+                "compilerVersion": "v0.8.6+commit.11564f7e"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0x32e4c68b3a4a813b710595aeba7f6b7604ab9c15": {
+        "logic": [
+            {
+                "address": "0x1e9682d8c780790a5d5a9cb234634c8cc849e0b5",
+                "contractName": "LoanTokenLogicStandard",
+                "mainContractPath": "0x32e4c68b3a4a813b710595aeba7f6b7604ab9c15/contracts/0x1e9682d8c780790a5d5a9cb234634c8cc849e0b5/LoanTokenLogicStandard.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

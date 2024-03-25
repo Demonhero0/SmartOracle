@@ -1,0 +1,12 @@
+{
+    "0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41": {
+        "logic": [
+            {
+                "address": "0x5bd628141c62a901e0a83e630ce5fafa95bbdee4",
+                "contractName": "IndexPool",
+                "mainContractPath": "0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41/contracts/0x5bd628141c62a901e0a83e630ce5fafa95bbdee4/temp-contracts/balancer/IndexPool.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

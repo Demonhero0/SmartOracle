@@ -1,0 +1,12 @@
+{
+    "0xd6e194af3d9674b62d1b30ec676030c23961275e": {
+        "logic": [
+            {
+                "address": "0xec260f5a7a729bb3d0c42d292de159b4cb1844a3",
+                "contractName": "RariFundManager",
+                "mainContractPath": "0xd6e194af3d9674b62d1b30ec676030c23961275e/contracts/0xec260f5a7a729bb3d0c42d292de159b4cb1844a3/home/david/repc-latest-latest/contracts/RariFundManager.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

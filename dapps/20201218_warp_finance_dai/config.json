@@ -1,0 +1,12 @@
+{
+    "0x6046c3ab74e6ce761d218b9117d5c63200f4b406": {
+        "logic": [
+            {
+                "address": "0x6046c3ab74e6ce761d218b9117d5c63200f4b406",
+                "contractName": "WarpVaultSC",
+                "mainContractPath": "0x6046c3ab74e6ce761d218b9117d5c63200f4b406/contracts/0x6046c3ab74e6ce761d218b9117d5c63200f4b406/WarpVaultSC.sol",
+                "compilerVersion": "v0.6.6+commit.6c089d02"
+            }
+        ]
+    }
+}

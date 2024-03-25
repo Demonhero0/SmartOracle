@@ -1,0 +1,12 @@
+{
+    "0x6847259b2b3a4c17e7c43c54409810af48ba5210": {
+        "logic": [
+            {
+                "address": "0x6847259b2b3a4c17e7c43c54409810af48ba5210",
+                "contractName": "ControllerV4",
+                "mainContractPath": "0x6847259b2b3a4c17e7c43c54409810af48ba5210/contracts/0x6847259b2b3a4c17e7c43c54409810af48ba5210/src/controller-v4.sol",
+                "compilerVersion": "v0.6.7+commit.b8d736ae"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0x051ebd717311350f1684f89335bed4abd083a2b6": {
+        "logic": [
+            {
+                "address": "0x051ebd717311350f1684f89335bed4abd083a2b6",
+                "contractName": "DVM",
+                "mainContractPath": "0x051ebd717311350f1684f89335bed4abd083a2b6/contracts/0x051ebd717311350f1684f89335bed4abd083a2b6/DVM.sol",
+                "compilerVersion": "v0.6.9+commit.3e3065ac"
+            }
+        ]
+    }
+}

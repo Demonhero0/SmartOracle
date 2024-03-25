@@ -1,0 +1,280 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "Blacksmith",
+            "label": "Ownable_own__owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "address"
+        },
+        {
+            "astId": 1,
+            "contract": "Blacksmith",
+            "label": "ReentrancyGuard_own__status",
+            "offset": 0,
+            "slot": "1",
+            "type": "uint256"
+        },
+        {
+            "astId": 2,
+            "contract": "Blacksmith",
+            "label": "cover",
+            "offset": 0,
+            "slot": "2",
+            "type": "ICOVER"
+        },
+        {
+            "astId": 3,
+            "contract": "Blacksmith",
+            "label": "governance",
+            "offset": 0,
+            "slot": "3",
+            "type": "address"
+        },
+        {
+            "astId": 4,
+            "contract": "Blacksmith",
+            "label": "treasury",
+            "offset": 0,
+            "slot": "4",
+            "type": "address"
+        },
+        {
+            "astId": 5,
+            "contract": "Blacksmith",
+            "label": "weeklyTotal",
+            "offset": 0,
+            "slot": "5",
+            "type": "uint256"
+        },
+        {
+            "astId": 6,
+            "contract": "Blacksmith",
+            "label": "totalWeight",
+            "offset": 0,
+            "slot": "6",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "Blacksmith",
+            "label": "poolList",
+            "offset": 0,
+            "slot": "7",
+            "type": "address[]"
+        },
+        {
+            "astId": 8,
+            "contract": "Blacksmith",
+            "label": "pools",
+            "offset": 0,
+            "slot": "8",
+            "type": "mapping(address => IBlacksmith.Pool)"
+        },
+        {
+            "astId": 9,
+            "contract": "Blacksmith",
+            "label": "bonusTokens",
+            "offset": 0,
+            "slot": "9",
+            "type": "mapping(address => IBlacksmith.BonusToken)"
+        },
+        {
+            "astId": 10,
+            "contract": "Blacksmith",
+            "label": "allowBonusTokens",
+            "offset": 0,
+            "slot": "10",
+            "type": "mapping(address => uint8)"
+        },
+        {
+            "astId": 11,
+            "contract": "Blacksmith",
+            "label": "miners",
+            "offset": 0,
+            "slot": "11",
+            "type": "mapping(address => mapping(address => IBlacksmith.Miner))"
+        }
+    ],
+    "types": {
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "ICOVER": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "address[]": {
+            "base": "address",
+            "encoding": "dynamic_array",
+            "label": "address[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => IBlacksmith.Pool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => IBlacksmith.Pool)",
+            "numberOfBytes": "32",
+            "value": "IBlacksmith.Pool"
+        },
+        "IBlacksmith.Pool": {
+            "encoding": "inplace",
+            "label": "IBlacksmith.Pool",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Blacksmith",
+                    "label": "weight",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Blacksmith",
+                    "label": "accRewardsPerToken",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "Blacksmith",
+                    "label": "lastUpdatedAt",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 288
+        },
+        "mapping(address => IBlacksmith.BonusToken)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => IBlacksmith.BonusToken)",
+            "numberOfBytes": "32",
+            "value": "IBlacksmith.BonusToken"
+        },
+        "IBlacksmith.BonusToken": {
+            "encoding": "inplace",
+            "label": "IBlacksmith.BonusToken",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Blacksmith",
+                    "label": "addr",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Blacksmith",
+                    "label": "startTime",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "Blacksmith",
+                    "label": "endTime",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "Blacksmith",
+                    "label": "totalBonus",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 4,
+                    "contract": "Blacksmith",
+                    "label": "accBonusPerToken",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 5,
+                    "contract": "Blacksmith",
+                    "label": "lastUpdatedAt",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 1152
+        },
+        "mapping(address => uint8)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => uint8)",
+            "numberOfBytes": "32",
+            "value": "uint8"
+        },
+        "uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+        },
+        "mapping(address => mapping(address => IBlacksmith.Miner))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(address => IBlacksmith.Miner))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => IBlacksmith.Miner)"
+        },
+        "mapping(address => IBlacksmith.Miner)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => IBlacksmith.Miner)",
+            "numberOfBytes": "32",
+            "value": "IBlacksmith.Miner"
+        },
+        "IBlacksmith.Miner": {
+            "encoding": "inplace",
+            "label": "IBlacksmith.Miner",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Blacksmith",
+                    "label": "amount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Blacksmith",
+                    "label": "rewardWriteoff",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "Blacksmith",
+                    "label": "bonusWriteoff",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 288
+        }
+    }
+}

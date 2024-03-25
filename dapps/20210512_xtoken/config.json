@@ -1,0 +1,12 @@
+{
+    "0x2367012ab9c3da91290f71590d5ce217721eefe4": {
+        "logic": [
+            {
+                "address": "0x04bef870de607519c91d16a23434ad5745f62a63",
+                "contractName": "xSNX",
+                "mainContractPath": "0x2367012ab9c3da91290f71590d5ce217721eefe4/contracts/0x04bef870de607519c91d16a23434ad5745f62a63/xSNX.sol",
+                "compilerVersion": "v0.5.15+commit.6a57276f"
+            }
+        ]
+    }
+}

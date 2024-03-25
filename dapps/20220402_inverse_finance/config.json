@@ -1,0 +1,12 @@
+{
+    "0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670": {
+        "logic": [
+            {
+                "address": "0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670",
+                "contractName": "CErc20Immutable",
+                "mainContractPath": "0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670/contracts/0x7fcb7dac61ee35b3d4a51117a7c58d53f0a8a670/contracts/CErc20Immutable.sol",
+                "compilerVersion": "v0.5.16+commit.9c3226ce"
+            }
+        ]
+    }
+}

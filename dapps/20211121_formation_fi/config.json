@@ -1,0 +1,12 @@
+{
+    "0x62931dece3411ada1038c09cd01baa11db08334b": {
+        "logic": [
+            {
+                "address": "0x62931dece3411ada1038c09cd01baa11db08334b",
+                "contractName": "LPFarmingV2",
+                "mainContractPath": "0x62931dece3411ada1038c09cd01baa11db08334b/contracts/0x62931dece3411ada1038c09cd01baa11db08334b/contracts/LPFarmV2.sol",
+                "compilerVersion": "v0.8.4+commit.c7e474f2"
+            }
+        ]
+    }
+}

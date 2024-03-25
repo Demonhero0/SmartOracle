@@ -1,0 +1,12 @@
+{
+    "0x277e80f3e14e7fb3fc40a9d6184088e0241034bd": {
+        "logic": [
+            {
+                "address": "0x328d15f6b5eba1c30cde1a5f1f5a9e35b07f5424",
+                "contractName": "VaultCore",
+                "mainContractPath": "0x277e80f3e14e7fb3fc40a9d6184088e0241034bd/contracts/0x328d15f6b5eba1c30cde1a5f1f5a9e35b07f5424/VaultCore.sol",
+                "compilerVersion": "v0.5.11+commit.c082d0b4"
+            }
+        ]
+    }
+}

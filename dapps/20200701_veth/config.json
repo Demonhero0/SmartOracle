@@ -1,0 +1,12 @@
+{
+    "0x75572098dc462f976127f59f8c97dfa291f81d8b": {
+        "logic": [
+            {
+                "address": "0x75572098dc462f976127f59f8c97dfa291f81d8b",
+                "contractName": "Vether3",
+                "mainContractPath": "0x75572098dc462f976127f59f8c97dfa291f81d8b/contracts/0x75572098dc462f976127f59f8c97dfa291f81d8b/Vether3.sol",
+                "compilerVersion": "v0.6.4+commit.1dca32f3"
+            }
+        ]
+    }
+}

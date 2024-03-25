@@ -1,0 +1,12 @@
+{
+    "0x5f5cd91070960d13ee549c9cc47e7a4cd00457bb": {
+        "logic": [
+            {
+                "address": "0x33bf0bb8e1405dc440eccb97ffd92fef438c8a27",
+                "contractName": "HomoraBank",
+                "mainContractPath": "0x5f5cd91070960d13ee549c9cc47e7a4cd00457bb/contracts/0x33bf0bb8e1405dc440eccb97ffd92fef438c8a27/contracts/HomoraBank.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

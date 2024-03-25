@@ -1,0 +1,435 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "Vether3",
+            "label": "name",
+            "offset": 0,
+            "slot": "0",
+            "type": "string"
+        },
+        {
+            "astId": 1,
+            "contract": "Vether3",
+            "label": "symbol",
+            "offset": 0,
+            "slot": "1",
+            "type": "string"
+        },
+        {
+            "astId": 2,
+            "contract": "Vether3",
+            "label": "decimals",
+            "offset": 0,
+            "slot": "2",
+            "type": "uint256"
+        },
+        {
+            "astId": 3,
+            "contract": "Vether3",
+            "label": "totalSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "uint256"
+        },
+        {
+            "astId": 4,
+            "contract": "Vether3",
+            "label": "_balances",
+            "offset": 0,
+            "slot": "4",
+            "type": "mapping(address => uint256)"
+        },
+        {
+            "astId": 5,
+            "contract": "Vether3",
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "5",
+            "type": "mapping(address => mapping(address => uint256))"
+        },
+        {
+            "astId": 6,
+            "contract": "Vether3",
+            "label": "coin",
+            "offset": 0,
+            "slot": "6",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "Vether3",
+            "label": "emission",
+            "offset": 0,
+            "slot": "7",
+            "type": "uint256"
+        },
+        {
+            "astId": 8,
+            "contract": "Vether3",
+            "label": "currentEra",
+            "offset": 0,
+            "slot": "8",
+            "type": "uint256"
+        },
+        {
+            "astId": 9,
+            "contract": "Vether3",
+            "label": "currentDay",
+            "offset": 0,
+            "slot": "9",
+            "type": "uint256"
+        },
+        {
+            "astId": 10,
+            "contract": "Vether3",
+            "label": "daysPerEra",
+            "offset": 0,
+            "slot": "10",
+            "type": "uint256"
+        },
+        {
+            "astId": 11,
+            "contract": "Vether3",
+            "label": "secondsPerDay",
+            "offset": 0,
+            "slot": "11",
+            "type": "uint256"
+        },
+        {
+            "astId": 12,
+            "contract": "Vether3",
+            "label": "upgradeHeight",
+            "offset": 0,
+            "slot": "12",
+            "type": "uint256"
+        },
+        {
+            "astId": 13,
+            "contract": "Vether3",
+            "label": "upgradedAmount",
+            "offset": 0,
+            "slot": "13",
+            "type": "uint256"
+        },
+        {
+            "astId": 14,
+            "contract": "Vether3",
+            "label": "genesis",
+            "offset": 0,
+            "slot": "14",
+            "type": "uint256"
+        },
+        {
+            "astId": 15,
+            "contract": "Vether3",
+            "label": "nextEraTime",
+            "offset": 0,
+            "slot": "15",
+            "type": "uint256"
+        },
+        {
+            "astId": 16,
+            "contract": "Vether3",
+            "label": "nextDayTime",
+            "offset": 0,
+            "slot": "16",
+            "type": "uint256"
+        },
+        {
+            "astId": 17,
+            "contract": "Vether3",
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "17",
+            "type": "address"
+        },
+        {
+            "astId": 18,
+            "contract": "Vether3",
+            "label": "vether1",
+            "offset": 0,
+            "slot": "18",
+            "type": "address"
+        },
+        {
+            "astId": 19,
+            "contract": "Vether3",
+            "label": "vether2",
+            "offset": 0,
+            "slot": "19",
+            "type": "address"
+        },
+        {
+            "astId": 20,
+            "contract": "Vether3",
+            "label": "deployer",
+            "offset": 0,
+            "slot": "20",
+            "type": "address"
+        },
+        {
+            "astId": 21,
+            "contract": "Vether3",
+            "label": "totalFees",
+            "offset": 0,
+            "slot": "21",
+            "type": "uint256"
+        },
+        {
+            "astId": 22,
+            "contract": "Vether3",
+            "label": "totalBurnt",
+            "offset": 0,
+            "slot": "22",
+            "type": "uint256"
+        },
+        {
+            "astId": 23,
+            "contract": "Vether3",
+            "label": "totalEmitted",
+            "offset": 0,
+            "slot": "23",
+            "type": "uint256"
+        },
+        {
+            "astId": 24,
+            "contract": "Vether3",
+            "label": "holderArray",
+            "offset": 0,
+            "slot": "24",
+            "type": "address[]"
+        },
+        {
+            "astId": 25,
+            "contract": "Vether3",
+            "label": "holders",
+            "offset": 0,
+            "slot": "25",
+            "type": "uint256"
+        },
+        {
+            "astId": 26,
+            "contract": "Vether3",
+            "label": "excludedArray",
+            "offset": 0,
+            "slot": "26",
+            "type": "address[]"
+        },
+        {
+            "astId": 27,
+            "contract": "Vether3",
+            "label": "excludedCount",
+            "offset": 0,
+            "slot": "27",
+            "type": "uint256"
+        },
+        {
+            "astId": 28,
+            "contract": "Vether3",
+            "label": "mapEra_Emission",
+            "offset": 0,
+            "slot": "28",
+            "type": "mapping(uint256 => uint256)"
+        },
+        {
+            "astId": 29,
+            "contract": "Vether3",
+            "label": "mapEraDay_MemberCount",
+            "offset": 0,
+            "slot": "29",
+            "type": "mapping(uint256 => mapping(uint256 => uint256))"
+        },
+        {
+            "astId": 30,
+            "contract": "Vether3",
+            "label": "mapEraDay_Members",
+            "offset": 0,
+            "slot": "30",
+            "type": "mapping(uint256 => mapping(uint256 => address[]))"
+        },
+        {
+            "astId": 31,
+            "contract": "Vether3",
+            "label": "mapEraDay_Units",
+            "offset": 0,
+            "slot": "31",
+            "type": "mapping(uint256 => mapping(uint256 => uint256))"
+        },
+        {
+            "astId": 32,
+            "contract": "Vether3",
+            "label": "mapEraDay_UnitsRemaining",
+            "offset": 0,
+            "slot": "32",
+            "type": "mapping(uint256 => mapping(uint256 => uint256))"
+        },
+        {
+            "astId": 33,
+            "contract": "Vether3",
+            "label": "mapEraDay_EmissionRemaining",
+            "offset": 0,
+            "slot": "33",
+            "type": "mapping(uint256 => mapping(uint256 => uint256))"
+        },
+        {
+            "astId": 34,
+            "contract": "Vether3",
+            "label": "mapEraDay_MemberUnits",
+            "offset": 0,
+            "slot": "34",
+            "type": "mapping(uint256 => mapping(uint256 => mapping(address => uint256)))"
+        },
+        {
+            "astId": 35,
+            "contract": "Vether3",
+            "label": "mapMemberEra_Days",
+            "offset": 0,
+            "slot": "35",
+            "type": "mapping(address => mapping(uint256 => uint256[]))"
+        },
+        {
+            "astId": 36,
+            "contract": "Vether3",
+            "label": "mapPreviousOwnership",
+            "offset": 0,
+            "slot": "36",
+            "type": "mapping(address => uint256)"
+        },
+        {
+            "astId": 37,
+            "contract": "Vether3",
+            "label": "mapHolder",
+            "offset": 0,
+            "slot": "37",
+            "type": "mapping(address => bool)"
+        },
+        {
+            "astId": 38,
+            "contract": "Vether3",
+            "label": "mapAddress_Excluded",
+            "offset": 0,
+            "slot": "38",
+            "type": "mapping(address => bool)"
+        },
+        {
+            "astId": 39,
+            "contract": "Vether3",
+            "label": "mapAddress_BlockChange",
+            "offset": 0,
+            "slot": "39",
+            "type": "mapping(address => uint256)"
+        }
+    ],
+    "types": {
+        "string": {
+            "encoding": "bytes",
+            "label": "string",
+            "numberOfBytes": "32"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => uint256)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "mapping(address => mapping(address => uint256))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => uint256)"
+        },
+        "address[]": {
+            "base": "address",
+            "encoding": "dynamic_array",
+            "label": "address[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(uint256 => uint256)": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "mapping(uint256 => mapping(uint256 => uint256))": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => mapping(uint256 => uint256))",
+            "numberOfBytes": "32",
+            "value": "mapping(uint256 => uint256)"
+        },
+        "mapping(uint256 => mapping(uint256 => address[]))": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => mapping(uint256 => address[]))",
+            "numberOfBytes": "32",
+            "value": "mapping(uint256 => address[])"
+        },
+        "mapping(uint256 => address[])": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32",
+            "value": "address[]"
+        },
+        "mapping(uint256 => mapping(uint256 => mapping(address => uint256)))": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => mapping(uint256 => mapping(address => uint256)))",
+            "numberOfBytes": "32",
+            "value": "mapping(uint256 => mapping(address => uint256))"
+        },
+        "mapping(uint256 => mapping(address => uint256))": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => mapping(address => uint256))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => uint256)"
+        },
+        "mapping(address => mapping(uint256 => uint256[]))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(uint256 => uint256[]))",
+            "numberOfBytes": "32",
+            "value": "mapping(uint256 => uint256[])"
+        },
+        "mapping(uint256 => uint256[])": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => uint256[])",
+            "numberOfBytes": "32",
+            "value": "uint256[]"
+        },
+        "uint256[]": {
+            "base": "uint256",
+            "encoding": "dynamic_array",
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => bool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "bool"
+        },
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        }
+    }
+}

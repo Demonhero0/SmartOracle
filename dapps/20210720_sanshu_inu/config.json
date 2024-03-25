@@ -1,0 +1,12 @@
+{
+    "0x35c674c288577df3e9b5dafef945795b741c7810": {
+        "logic": [
+            {
+                "address": "0x35c674c288577df3e9b5dafef945795b741c7810",
+                "contractName": "Memestake",
+                "mainContractPath": "0x35c674c288577df3e9b5dafef945795b741c7810/contracts/0x35c674c288577df3e9b5dafef945795b741c7810/Memestake.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0x824dcd7b044d60df2e89b1bb888e66d8bcf41491": {
+        "logic": [
+            {
+                "address": "0x824dcd7b044d60df2e89b1bb888e66d8bcf41491",
+                "contractName": "MetaSwap",
+                "mainContractPath": "0x824dcd7b044d60df2e89b1bb888e66d8bcf41491/contracts/0x824dcd7b044d60df2e89b1bb888e66d8bcf41491/contracts/meta/MetaSwap.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

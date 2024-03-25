@@ -1,0 +1,46 @@
+[
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_baseRate",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_rateMultiplier",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_lowUtilBaseRate",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_lowUtilRateMultiplier",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_targetLevel",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_kinkLevel",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_maxScaleRate",
+                "type": "uint256"
+            }
+        ],
+        "name": "setDemandCurve",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    }
+]

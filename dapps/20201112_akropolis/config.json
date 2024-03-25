@@ -1,0 +1,12 @@
+{
+    "0x73fc3038b4cd8ffd07482b92a52ea806505e5748": {
+        "logic": [
+            {
+                "address": "0x1cec0e358f882733c5ecc028d8a0c24baee02004",
+                "contractName": "SavingsModule",
+                "mainContractPath": "0x73fc3038b4cd8ffd07482b92a52ea806505e5748/contracts/0x1cec0e358f882733c5ecc028d8a0c24baee02004/SavingsModule.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0x20e5e35ba29dc3b540a1aee781d0814d5c77bce6": {
+        "logic": [
+            {
+                "address": "0x99309d2e7265528dc7c3067004cc4a90d37b7cc3",
+                "contractName": "QBridge",
+                "mainContractPath": "0x20e5e35ba29dc3b540a1aee781d0814d5c77bce6/contracts/0x99309d2e7265528dc7c3067004cc4a90d37b7cc3/contracts/bridge/QBridge.sol",
+                "compilerVersion": "v0.6.12+commit.27d51765"
+            }
+        ]
+    }
+}

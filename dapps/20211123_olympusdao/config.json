@@ -1,0 +1,12 @@
+{
+    "0x956c43998316b6a2f21f89a1539f73fb5b78c151": {
+        "logic": [
+            {
+                "address": "0x956c43998316b6a2f21f89a1539f73fb5b78c151",
+                "contractName": "OlympusBondDepository",
+                "mainContractPath": "0x956c43998316b6a2f21f89a1539f73fb5b78c151/contracts/0x956c43998316b6a2f21f89a1539f73fb5b78c151/OlympusBondDepository.sol",
+                "compilerVersion": "v0.7.5+commit.eb77ed08"
+            }
+        ]
+    }
+}

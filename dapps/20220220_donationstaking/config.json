@@ -1,0 +1,12 @@
+{
+    "0x06eafc6749723583672fc8f4451c8ec0e59f5798": {
+        "logic": [
+            {
+                "address": "0xf6aba545d32ebf39b1c1ef70c0be58013f2b4478",
+                "contractName": "DonationsStaking",
+                "mainContractPath": "0x06eafc6749723583672fc8f4451c8ec0e59f5798/contracts/0xf6aba545d32ebf39b1c1ef70c0be58013f2b4478/contracts/staking/DonationsStaking.sol",
+                "compilerVersion": "v0.8.8+commit.dddeac2f"
+            }
+        ]
+    }
+}

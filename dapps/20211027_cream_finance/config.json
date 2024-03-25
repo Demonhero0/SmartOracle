@@ -1,0 +1,12 @@
+{
+    "0x3d5bc3c8d13dcb8bf317092d84783c2697ae9258": {
+        "logic": [
+            {
+                "address": "0x02e795eec131246128346d17d2f564d7bf7c705b",
+                "contractName": "Comptroller",
+                "mainContractPath": "0x3d5bc3c8d13dcb8bf317092d84783c2697ae9258/contracts/0x02e795eec131246128346d17d2f564d7bf7c705b/contracts/Comptroller.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

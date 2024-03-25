@@ -1,0 +1,195 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "Memestake",
+            "label": "Ownable_own__owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "address"
+        },
+        {
+            "astId": 1,
+            "contract": "Memestake",
+            "label": "mFundToken",
+            "offset": 0,
+            "slot": "1",
+            "type": "Memefund"
+        },
+        {
+            "astId": 2,
+            "contract": "Memestake",
+            "label": "mFundPerBlock",
+            "offset": 0,
+            "slot": "2",
+            "type": "uint256"
+        },
+        {
+            "astId": 3,
+            "contract": "Memestake",
+            "label": "poolInfo",
+            "offset": 0,
+            "slot": "3",
+            "type": "Memestake.PoolInfo[]"
+        },
+        {
+            "astId": 4,
+            "contract": "Memestake",
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "4",
+            "type": "mapping(uint256 => mapping(address => Memestake.UserInfo))"
+        },
+        {
+            "astId": 5,
+            "contract": "Memestake",
+            "label": "isTokenContractAdded",
+            "offset": 0,
+            "slot": "5",
+            "type": "mapping(address => bool)"
+        },
+        {
+            "astId": 6,
+            "contract": "Memestake",
+            "label": "totalAllocPoint",
+            "offset": 0,
+            "slot": "6",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "Memestake",
+            "label": "totalMfund",
+            "offset": 0,
+            "slot": "7",
+            "type": "uint256"
+        },
+        {
+            "astId": 8,
+            "contract": "Memestake",
+            "label": "startBlock",
+            "offset": 0,
+            "slot": "8",
+            "type": "uint256"
+        },
+        {
+            "astId": 9,
+            "contract": "Memestake",
+            "label": "endBlock",
+            "offset": 0,
+            "slot": "9",
+            "type": "uint256"
+        }
+    ],
+    "types": {
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "Memefund": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "Memestake.PoolInfo": {
+            "encoding": "inplace",
+            "label": "Memestake.PoolInfo",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Memestake",
+                    "label": "tokenContract",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "IERC20"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Memestake",
+                    "label": "allocPoint",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "Memestake",
+                    "label": "lastRewardBlock",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "Memestake",
+                    "label": "accMfundPerShare",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 512
+        },
+        "Memestake.PoolInfo[]": {
+            "base": "Memestake.PoolInfo",
+            "encoding": "dynamic_array",
+            "label": "Memestake.PoolInfo[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(uint256 => mapping(address => Memestake.UserInfo))": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => mapping(address => Memestake.UserInfo))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => Memestake.UserInfo)"
+        },
+        "mapping(address => Memestake.UserInfo)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => Memestake.UserInfo)",
+            "numberOfBytes": "32",
+            "value": "Memestake.UserInfo"
+        },
+        "Memestake.UserInfo": {
+            "encoding": "inplace",
+            "label": "Memestake.UserInfo",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Memestake",
+                    "label": "amount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Memestake",
+                    "label": "rewardDebt",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 128
+        },
+        "mapping(address => bool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "bool"
+        },
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        }
+    }
+}

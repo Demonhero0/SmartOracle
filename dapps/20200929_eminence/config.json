@@ -1,0 +1,12 @@
+{
+    "0x5ade7ae8660293f2ebfcefaba91d141d72d221e8": {
+        "logic": [
+            {
+                "address": "0x5ade7ae8660293f2ebfcefaba91d141d72d221e8",
+                "contractName": "EminenceCurrency",
+                "mainContractPath": "0x5ade7ae8660293f2ebfcefaba91d141d72d221e8/contracts/0x5ade7ae8660293f2ebfcefaba91d141d72d221e8/EminenceCurrency.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

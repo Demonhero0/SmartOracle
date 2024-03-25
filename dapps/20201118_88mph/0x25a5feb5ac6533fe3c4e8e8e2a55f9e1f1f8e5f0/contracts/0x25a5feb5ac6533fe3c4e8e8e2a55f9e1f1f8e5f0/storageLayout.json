@@ -1,0 +1,338 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "DInterest",
+            "label": "ReentrancyGuard_own__notEntered",
+            "offset": 0,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 1,
+            "contract": "DInterest",
+            "label": "Ownable_own__owner",
+            "offset": 1,
+            "slot": "0",
+            "type": "address"
+        },
+        {
+            "astId": 2,
+            "contract": "DInterest",
+            "label": "deposits",
+            "offset": 0,
+            "slot": "1",
+            "type": "DInterest.Deposit[]"
+        },
+        {
+            "astId": 3,
+            "contract": "DInterest",
+            "label": "latestFundedDepositID",
+            "offset": 0,
+            "slot": "2",
+            "type": "uint256"
+        },
+        {
+            "astId": 4,
+            "contract": "DInterest",
+            "label": "unfundedUserDepositAmount",
+            "offset": 0,
+            "slot": "3",
+            "type": "uint256"
+        },
+        {
+            "astId": 5,
+            "contract": "DInterest",
+            "label": "fundingList",
+            "offset": 0,
+            "slot": "4",
+            "type": "DInterest.Funding[]"
+        },
+        {
+            "astId": 6,
+            "contract": "DInterest",
+            "label": "MinDepositPeriod",
+            "offset": 0,
+            "slot": "5",
+            "type": "uint256"
+        },
+        {
+            "astId": 7,
+            "contract": "DInterest",
+            "label": "MaxDepositPeriod",
+            "offset": 0,
+            "slot": "6",
+            "type": "uint256"
+        },
+        {
+            "astId": 8,
+            "contract": "DInterest",
+            "label": "MinDepositAmount",
+            "offset": 0,
+            "slot": "7",
+            "type": "uint256"
+        },
+        {
+            "astId": 9,
+            "contract": "DInterest",
+            "label": "MaxDepositAmount",
+            "offset": 0,
+            "slot": "8",
+            "type": "uint256"
+        },
+        {
+            "astId": 10,
+            "contract": "DInterest",
+            "label": "totalDeposit",
+            "offset": 0,
+            "slot": "9",
+            "type": "uint256"
+        },
+        {
+            "astId": 11,
+            "contract": "DInterest",
+            "label": "totalInterestOwed",
+            "offset": 0,
+            "slot": "10",
+            "type": "uint256"
+        },
+        {
+            "astId": 12,
+            "contract": "DInterest",
+            "label": "moneyMarket",
+            "offset": 0,
+            "slot": "11",
+            "type": "IMoneyMarket"
+        },
+        {
+            "astId": 13,
+            "contract": "DInterest",
+            "label": "stablecoin",
+            "offset": 0,
+            "slot": "12",
+            "type": "ERC20"
+        },
+        {
+            "astId": 14,
+            "contract": "DInterest",
+            "label": "feeModel",
+            "offset": 0,
+            "slot": "13",
+            "type": "IFeeModel"
+        },
+        {
+            "astId": 15,
+            "contract": "DInterest",
+            "label": "interestModel",
+            "offset": 0,
+            "slot": "14",
+            "type": "IInterestModel"
+        },
+        {
+            "astId": 16,
+            "contract": "DInterest",
+            "label": "interestOracle",
+            "offset": 0,
+            "slot": "15",
+            "type": "IInterestOracle"
+        },
+        {
+            "astId": 17,
+            "contract": "DInterest",
+            "label": "depositNFT",
+            "offset": 0,
+            "slot": "16",
+            "type": "NFT"
+        },
+        {
+            "astId": 18,
+            "contract": "DInterest",
+            "label": "fundingNFT",
+            "offset": 0,
+            "slot": "17",
+            "type": "NFT"
+        },
+        {
+            "astId": 19,
+            "contract": "DInterest",
+            "label": "mphMinter",
+            "offset": 0,
+            "slot": "18",
+            "type": "MPHMinter"
+        }
+    ],
+    "types": {
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "DInterest.Deposit": {
+            "encoding": "inplace",
+            "label": "DInterest.Deposit",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "DInterest",
+                    "label": "amount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "DInterest",
+                    "label": "maturationTimestamp",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "DInterest",
+                    "label": "interestOwed",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "DInterest",
+                    "label": "initialMoneyMarketIncomeIndex",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 4,
+                    "contract": "DInterest",
+                    "label": "active",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bool"
+                },
+                {
+                    "astId": 5,
+                    "contract": "DInterest",
+                    "label": "finalSurplusIsNegative",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bool"
+                },
+                {
+                    "astId": 6,
+                    "contract": "DInterest",
+                    "label": "finalSurplusAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 7,
+                    "contract": "DInterest",
+                    "label": "mintMPHAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 1792
+        },
+        "DInterest.Deposit[]": {
+            "base": "DInterest.Deposit",
+            "encoding": "dynamic_array",
+            "label": "DInterest.Deposit[]",
+            "numberOfBytes": "32"
+        },
+        "DInterest.Funding": {
+            "encoding": "inplace",
+            "label": "DInterest.Funding",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "DInterest",
+                    "label": "fromDepositID",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "DInterest",
+                    "label": "toDepositID",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "DInterest",
+                    "label": "recordedFundedDepositAmount",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "DInterest",
+                    "label": "recordedMoneyMarketIncomeIndex",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 512
+        },
+        "DInterest.Funding[]": {
+            "base": "DInterest.Funding",
+            "encoding": "dynamic_array",
+            "label": "DInterest.Funding[]",
+            "numberOfBytes": "32"
+        },
+        "IMoneyMarket": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "ERC20": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IFeeModel": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IInterestModel": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IInterestOracle": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "NFT": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "MPHMinter": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        }
+    }
+}

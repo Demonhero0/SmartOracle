@@ -1,0 +1,334 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "Governance",
+            "label": "Initializable_own_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 1,
+            "contract": "Governance",
+            "label": "Initializable_own_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 2,
+            "contract": "Governance",
+            "label": "Initializable_own_______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "uint256[50]"
+        },
+        {
+            "astId": 3,
+            "contract": "Governance",
+            "label": "InitializableV2_own_isInitialized",
+            "offset": 0,
+            "slot": "51",
+            "type": "bool"
+        },
+        {
+            "astId": 4,
+            "contract": "Governance",
+            "label": "registry",
+            "offset": 1,
+            "slot": "51",
+            "type": "Registry"
+        },
+        {
+            "astId": 5,
+            "contract": "Governance",
+            "label": "stakingAddress",
+            "offset": 0,
+            "slot": "52",
+            "type": "address"
+        },
+        {
+            "astId": 6,
+            "contract": "Governance",
+            "label": "serviceProviderFactoryAddress",
+            "offset": 0,
+            "slot": "53",
+            "type": "address"
+        },
+        {
+            "astId": 7,
+            "contract": "Governance",
+            "label": "delegateManagerAddress",
+            "offset": 0,
+            "slot": "54",
+            "type": "address"
+        },
+        {
+            "astId": 8,
+            "contract": "Governance",
+            "label": "votingPeriod",
+            "offset": 0,
+            "slot": "55",
+            "type": "uint256"
+        },
+        {
+            "astId": 9,
+            "contract": "Governance",
+            "label": "executionDelay",
+            "offset": 0,
+            "slot": "56",
+            "type": "uint256"
+        },
+        {
+            "astId": 10,
+            "contract": "Governance",
+            "label": "votingQuorumPercent",
+            "offset": 0,
+            "slot": "57",
+            "type": "uint256"
+        },
+        {
+            "astId": 11,
+            "contract": "Governance",
+            "label": "maxInProgressProposals",
+            "offset": 0,
+            "slot": "58",
+            "type": "uint16"
+        },
+        {
+            "astId": 12,
+            "contract": "Governance",
+            "label": "guardianAddress",
+            "offset": 2,
+            "slot": "58",
+            "type": "address"
+        },
+        {
+            "astId": 13,
+            "contract": "Governance",
+            "label": "lastProposalId",
+            "offset": 0,
+            "slot": "59",
+            "type": "uint256"
+        },
+        {
+            "astId": 14,
+            "contract": "Governance",
+            "label": "proposals",
+            "offset": 0,
+            "slot": "60",
+            "type": "mapping(uint256 => Governance.Proposal)"
+        },
+        {
+            "astId": 15,
+            "contract": "Governance",
+            "label": "inProgressProposals",
+            "offset": 0,
+            "slot": "61",
+            "type": "uint256[]"
+        }
+    ],
+    "types": {
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "uint256[50]": {
+            "base": "uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+        },
+        "Registry": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "uint16": {
+            "encoding": "inplace",
+            "label": "uint16",
+            "numberOfBytes": "2"
+        },
+        "mapping(uint256 => Governance.Proposal)": {
+            "encoding": "mapping",
+            "key": "uint256",
+            "label": "mapping(uint256 => Governance.Proposal)",
+            "numberOfBytes": "32",
+            "value": "Governance.Proposal"
+        },
+        "bytes32": {
+            "encoding": "inplace",
+            "label": "bytes32",
+            "numberOfBytes": "32"
+        },
+        "string": {
+            "encoding": "bytes",
+            "label": "string",
+            "numberOfBytes": "32"
+        },
+        "bytes": {
+            "encoding": "bytes",
+            "label": "bytes",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => Governance.Vote)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => Governance.Vote)",
+            "numberOfBytes": "32",
+            "value": "Governance.Vote"
+        },
+        "mapping(address => uint256)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "Governance.Proposal": {
+            "encoding": "inplace",
+            "label": "Governance.Proposal",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "Governance",
+                    "label": "proposalId",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "Governance",
+                    "label": "proposer",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address"
+                },
+                {
+                    "astId": 2,
+                    "contract": "Governance",
+                    "label": "submissionBlockNumber",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "Governance",
+                    "label": "targetContractRegistryKey",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32"
+                },
+                {
+                    "astId": 4,
+                    "contract": "Governance",
+                    "label": "targetContractAddress",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address"
+                },
+                {
+                    "astId": 5,
+                    "contract": "Governance",
+                    "label": "callValue",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 6,
+                    "contract": "Governance",
+                    "label": "functionSignature",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "string"
+                },
+                {
+                    "astId": 7,
+                    "contract": "Governance",
+                    "label": "callData",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes"
+                },
+                {
+                    "astId": 8,
+                    "contract": "Governance",
+                    "label": "outcome",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "Governance.Outcome"
+                },
+                {
+                    "astId": 9,
+                    "contract": "Governance",
+                    "label": "voteMagnitudeYes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 10,
+                    "contract": "Governance",
+                    "label": "voteMagnitudeNo",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 11,
+                    "contract": "Governance",
+                    "label": "numVotes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 12,
+                    "contract": "Governance",
+                    "label": "votes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => Governance.Vote)"
+                },
+                {
+                    "astId": 13,
+                    "contract": "Governance",
+                    "label": "voteMagnitudes",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => uint256)"
+                },
+                {
+                    "astId": 14,
+                    "contract": "Governance",
+                    "label": "contractHash",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bytes32"
+                }
+            ],
+            "numberOfBytes": 7200
+        },
+        "uint256[]": {
+            "base": "uint256",
+            "encoding": "dynamic_array",
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+        }
+    }
+}

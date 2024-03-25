@@ -1,0 +1,49 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "tokenFrom",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokenFromAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "minUsdcAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "starkKey",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "positionId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "exchange",
+                "type": "address"
+            },
+            {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+            },
+            {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
+            }
+        ],
+        "name": "depositERC20",
+        "stateMutability": "payable",
+        "type": "function"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "0xe7f445b93eb9cdabfe76541cc43ff8de930a58e6": {
+        "logic": [
+            {
+                "address": "0xe7f445b93eb9cdabfe76541cc43ff8de930a58e6",
+                "contractName": "ForceProfitSharing",
+                "mainContractPath": "0xe7f445b93eb9cdabfe76541cc43ff8de930a58e6/contracts/0xe7f445b93eb9cdabfe76541cc43ff8de930a58e6/Defi/force/contracts/contracts/ForceProfitSharing.sol",
+                "compilerVersion": "v0.5.16+commit.9c3226ce"
+            }
+        ]
+    }
+}

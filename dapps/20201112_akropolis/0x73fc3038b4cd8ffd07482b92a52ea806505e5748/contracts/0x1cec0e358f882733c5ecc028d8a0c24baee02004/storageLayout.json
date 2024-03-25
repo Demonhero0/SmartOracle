@@ -1,0 +1,458 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "SavingsModule",
+            "label": "Initializable_own_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 1,
+            "contract": "SavingsModule",
+            "label": "Initializable_own_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "bool"
+        },
+        {
+            "astId": 2,
+            "contract": "SavingsModule",
+            "label": "Initializable_own_______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "uint256[50]"
+        },
+        {
+            "astId": 3,
+            "contract": "SavingsModule",
+            "label": "Ownable_own__owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "address"
+        },
+        {
+            "astId": 4,
+            "contract": "SavingsModule",
+            "label": "Ownable_own_______gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "uint256[50]"
+        },
+        {
+            "astId": 5,
+            "contract": "SavingsModule",
+            "label": "Module_own_pool",
+            "offset": 0,
+            "slot": "102",
+            "type": "address"
+        },
+        {
+            "astId": 6,
+            "contract": "SavingsModule",
+            "label": "RewardDistributions_own_rewardDistributions",
+            "offset": 0,
+            "slot": "103",
+            "type": "RewardDistributions.RewardTokenDistribution[]"
+        },
+        {
+            "astId": 7,
+            "contract": "SavingsModule",
+            "label": "RewardDistributions_own_rewardBalances",
+            "offset": 0,
+            "slot": "104",
+            "type": "mapping(address => RewardDistributions.RewardBalance)"
+        },
+        {
+            "astId": 8,
+            "contract": "SavingsModule",
+            "label": "CapperRole_own__cappers",
+            "offset": 0,
+            "slot": "105",
+            "type": "Roles.Role"
+        },
+        {
+            "astId": 9,
+            "contract": "SavingsModule",
+            "label": "CapperRole_own_______gap",
+            "offset": 0,
+            "slot": "106",
+            "type": "uint256[50]"
+        },
+        {
+            "astId": 10,
+            "contract": "SavingsModule",
+            "label": "registeredTokens",
+            "offset": 0,
+            "slot": "156",
+            "type": "address[]"
+        },
+        {
+            "astId": 11,
+            "contract": "SavingsModule",
+            "label": "registeredProtocols",
+            "offset": 0,
+            "slot": "157",
+            "type": "IDefiProtocol[]"
+        },
+        {
+            "astId": 12,
+            "contract": "SavingsModule",
+            "label": "registeredRewardTokens",
+            "offset": 0,
+            "slot": "158",
+            "type": "address[]"
+        },
+        {
+            "astId": 13,
+            "contract": "SavingsModule",
+            "label": "tokens",
+            "offset": 0,
+            "slot": "159",
+            "type": "mapping(address => SavingsModule.TokenData)"
+        },
+        {
+            "astId": 14,
+            "contract": "SavingsModule",
+            "label": "protocols",
+            "offset": 0,
+            "slot": "160",
+            "type": "mapping(address => SavingsModule.ProtocolInfo)"
+        },
+        {
+            "astId": 15,
+            "contract": "SavingsModule",
+            "label": "poolTokenToProtocol",
+            "offset": 0,
+            "slot": "161",
+            "type": "mapping(address => address)"
+        },
+        {
+            "astId": 16,
+            "contract": "SavingsModule",
+            "label": "rewardTokenRegistered",
+            "offset": 0,
+            "slot": "162",
+            "type": "mapping(address => bool)"
+        },
+        {
+            "astId": 17,
+            "contract": "SavingsModule",
+            "label": "userCapEnabled",
+            "offset": 0,
+            "slot": "163",
+            "type": "bool"
+        },
+        {
+            "astId": 18,
+            "contract": "SavingsModule",
+            "label": "protocolCapEnabled",
+            "offset": 1,
+            "slot": "163",
+            "type": "bool"
+        },
+        {
+            "astId": 19,
+            "contract": "SavingsModule",
+            "label": "defaultUserCap",
+            "offset": 0,
+            "slot": "164",
+            "type": "mapping(address => uint256)"
+        },
+        {
+            "astId": 20,
+            "contract": "SavingsModule",
+            "label": "protocolCap",
+            "offset": 0,
+            "slot": "165",
+            "type": "mapping(address => uint256)"
+        },
+        {
+            "astId": 21,
+            "contract": "SavingsModule",
+            "label": "vipUserEnabled",
+            "offset": 0,
+            "slot": "166",
+            "type": "bool"
+        }
+    ],
+    "types": {
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "uint256[50]": {
+            "base": "uint256",
+            "encoding": "inplace",
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+        },
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "address[]": {
+            "base": "address",
+            "encoding": "dynamic_array",
+            "label": "address[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => uint256)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32",
+            "value": "uint256"
+        },
+        "RewardDistributions.RewardTokenDistribution": {
+            "encoding": "inplace",
+            "label": "RewardDistributions.RewardTokenDistribution",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "SavingsModule",
+                    "label": "poolToken",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address"
+                },
+                {
+                    "astId": 1,
+                    "contract": "SavingsModule",
+                    "label": "totalShares",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "SavingsModule",
+                    "label": "rewardTokens",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address[]"
+                },
+                {
+                    "astId": 3,
+                    "contract": "SavingsModule",
+                    "label": "amounts",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => uint256)"
+                }
+            ],
+            "numberOfBytes": 512
+        },
+        "RewardDistributions.RewardTokenDistribution[]": {
+            "base": "RewardDistributions.RewardTokenDistribution",
+            "encoding": "dynamic_array",
+            "label": "RewardDistributions.RewardTokenDistribution[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => RewardDistributions.RewardBalance)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => RewardDistributions.RewardBalance)",
+            "numberOfBytes": "32",
+            "value": "RewardDistributions.RewardBalance"
+        },
+        "mapping(address => RewardDistributions.UserProtocolRewards)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => RewardDistributions.UserProtocolRewards)",
+            "numberOfBytes": "32",
+            "value": "RewardDistributions.UserProtocolRewards"
+        },
+        "RewardDistributions.UserProtocolRewards": {
+            "encoding": "inplace",
+            "label": "RewardDistributions.UserProtocolRewards",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "SavingsModule",
+                    "label": "amounts",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => uint256)"
+                }
+            ],
+            "numberOfBytes": 32
+        },
+        "RewardDistributions.RewardBalance": {
+            "encoding": "inplace",
+            "label": "RewardDistributions.RewardBalance",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "SavingsModule",
+                    "label": "nextDistribution",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "SavingsModule",
+                    "label": "shares",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => uint256)"
+                },
+                {
+                    "astId": 2,
+                    "contract": "SavingsModule",
+                    "label": "rewardsByProtocol",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => RewardDistributions.UserProtocolRewards)"
+                }
+            ],
+            "numberOfBytes": 288
+        },
+        "mapping(address => bool)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32",
+            "value": "bool"
+        },
+        "Roles.Role": {
+            "encoding": "inplace",
+            "label": "Roles.Role",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "SavingsModule",
+                    "label": "bearer",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => bool)"
+                }
+            ],
+            "numberOfBytes": 32
+        },
+        "IDefiProtocol": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "IDefiProtocol[]": {
+            "base": "IDefiProtocol",
+            "encoding": "dynamic_array",
+            "label": "IDefiProtocol[]",
+            "numberOfBytes": "32"
+        },
+        "mapping(address => SavingsModule.TokenData)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => SavingsModule.TokenData)",
+            "numberOfBytes": "32",
+            "value": "SavingsModule.TokenData"
+        },
+        "uint8": {
+            "encoding": "inplace",
+            "label": "uint8",
+            "numberOfBytes": "1"
+        },
+        "SavingsModule.TokenData": {
+            "encoding": "inplace",
+            "label": "SavingsModule.TokenData",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "SavingsModule",
+                    "label": "decimals",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint8"
+                }
+            ],
+            "numberOfBytes": 32
+        },
+        "mapping(address => SavingsModule.ProtocolInfo)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => SavingsModule.ProtocolInfo)",
+            "numberOfBytes": "32",
+            "value": "SavingsModule.ProtocolInfo"
+        },
+        "SavingsModule.ProtocolInfo": {
+            "encoding": "inplace",
+            "label": "SavingsModule.ProtocolInfo",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "SavingsModule",
+                    "label": "poolToken",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "PoolToken"
+                },
+                {
+                    "astId": 1,
+                    "contract": "SavingsModule",
+                    "label": "previousBalance",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "SavingsModule",
+                    "label": "lastRewardDistribution",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 3,
+                    "contract": "SavingsModule",
+                    "label": "supportedRewardTokens",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "address[]"
+                },
+                {
+                    "astId": 4,
+                    "contract": "SavingsModule",
+                    "label": "userCap",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => uint256)"
+                },
+                {
+                    "astId": 5,
+                    "contract": "SavingsModule",
+                    "label": "withdrawAllSlippage",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 6,
+                    "contract": "SavingsModule",
+                    "label": "isVipUser",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "mapping(address => bool)"
+                }
+            ],
+            "numberOfBytes": 1568
+        },
+        "mapping(address => address)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32",
+            "value": "address"
+        }
+    }
+}

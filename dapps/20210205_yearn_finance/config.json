@@ -1,0 +1,12 @@
+{
+    "0xacd43e627e64355f1861cec6d3a6688b31a6f952": {
+        "logic": [
+            {
+                "address": "0xacd43e627e64355f1861cec6d3a6688b31a6f952",
+                "contractName": "yVault",
+                "mainContractPath": "0xacd43e627e64355f1861cec6d3a6688b31a6f952/contracts/0xacd43e627e64355f1861cec6d3a6688b31a6f952/yVault.sol",
+                "compilerVersion": "v0.5.17+commit.d19bba13"
+            }
+        ]
+    }
+}

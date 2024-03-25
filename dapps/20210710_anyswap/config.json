@@ -1,0 +1,12 @@
+{
+    "0x6b7a87899490ece95443e979ca9485cbe7e71522": {
+        "logic": [
+            {
+                "address": "0x6b7a87899490ece95443e979ca9485cbe7e71522",
+                "contractName": "AnyswapV4Router",
+                "mainContractPath": "0x6b7a87899490ece95443e979ca9485cbe7e71522/contracts/0x6b7a87899490ece95443e979ca9485cbe7e71522/AnyswapV4Router.sol",
+                "compilerVersion": "v0.8.1+commit.df193b15"
+            }
+        ]
+    }
+}

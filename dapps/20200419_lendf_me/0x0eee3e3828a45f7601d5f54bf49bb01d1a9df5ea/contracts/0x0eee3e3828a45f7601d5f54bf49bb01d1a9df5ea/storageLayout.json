@@ -1,0 +1,253 @@
+{
+    "storage": [
+        {
+            "astId": 0,
+            "contract": "MoneyMarket",
+            "label": "pendingAdmin",
+            "offset": 0,
+            "slot": "0",
+            "type": "address"
+        },
+        {
+            "astId": 1,
+            "contract": "MoneyMarket",
+            "label": "admin",
+            "offset": 0,
+            "slot": "1",
+            "type": "address"
+        },
+        {
+            "astId": 2,
+            "contract": "MoneyMarket",
+            "label": "oracle",
+            "offset": 0,
+            "slot": "2",
+            "type": "address"
+        },
+        {
+            "astId": 3,
+            "contract": "MoneyMarket",
+            "label": "supplyBalances",
+            "offset": 0,
+            "slot": "3",
+            "type": "mapping(address => mapping(address => MoneyMarket.Balance))"
+        },
+        {
+            "astId": 4,
+            "contract": "MoneyMarket",
+            "label": "borrowBalances",
+            "offset": 0,
+            "slot": "4",
+            "type": "mapping(address => mapping(address => MoneyMarket.Balance))"
+        },
+        {
+            "astId": 5,
+            "contract": "MoneyMarket",
+            "label": "markets",
+            "offset": 0,
+            "slot": "5",
+            "type": "mapping(address => MoneyMarket.Market)"
+        },
+        {
+            "astId": 6,
+            "contract": "MoneyMarket",
+            "label": "collateralMarkets",
+            "offset": 0,
+            "slot": "6",
+            "type": "address[]"
+        },
+        {
+            "astId": 7,
+            "contract": "MoneyMarket",
+            "label": "collateralRatio",
+            "offset": 0,
+            "slot": "7",
+            "type": "Exponential.Exp"
+        },
+        {
+            "astId": 8,
+            "contract": "MoneyMarket",
+            "label": "originationFee",
+            "offset": 0,
+            "slot": "8",
+            "type": "Exponential.Exp"
+        },
+        {
+            "astId": 9,
+            "contract": "MoneyMarket",
+            "label": "liquidationDiscount",
+            "offset": 0,
+            "slot": "9",
+            "type": "Exponential.Exp"
+        },
+        {
+            "astId": 10,
+            "contract": "MoneyMarket",
+            "label": "paused",
+            "offset": 0,
+            "slot": "10",
+            "type": "bool"
+        }
+    ],
+    "types": {
+        "address": {
+            "encoding": "inplace",
+            "label": "address",
+            "numberOfBytes": "20"
+        },
+        "mapping(address => mapping(address => MoneyMarket.Balance))": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => mapping(address => MoneyMarket.Balance))",
+            "numberOfBytes": "32",
+            "value": "mapping(address => MoneyMarket.Balance)"
+        },
+        "mapping(address => MoneyMarket.Balance)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => MoneyMarket.Balance)",
+            "numberOfBytes": "32",
+            "value": "MoneyMarket.Balance"
+        },
+        "uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+        },
+        "MoneyMarket.Balance": {
+            "encoding": "inplace",
+            "label": "MoneyMarket.Balance",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "MoneyMarket",
+                    "label": "principal",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 1,
+                    "contract": "MoneyMarket",
+                    "label": "interestIndex",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 128
+        },
+        "mapping(address => MoneyMarket.Market)": {
+            "encoding": "mapping",
+            "key": "address",
+            "label": "mapping(address => MoneyMarket.Market)",
+            "numberOfBytes": "32",
+            "value": "MoneyMarket.Market"
+        },
+        "bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+        },
+        "MoneyMarket.Market": {
+            "encoding": "inplace",
+            "label": "MoneyMarket.Market",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "MoneyMarket",
+                    "label": "isSupported",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "bool"
+                },
+                {
+                    "astId": 1,
+                    "contract": "MoneyMarket",
+                    "label": "blockNumber",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 2,
+                    "contract": "MoneyMarket",
+                    "label": "interestRateModel",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "InterestRateModel"
+                },
+                {
+                    "astId": 3,
+                    "contract": "MoneyMarket",
+                    "label": "totalSupply",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 4,
+                    "contract": "MoneyMarket",
+                    "label": "supplyRateMantissa",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 5,
+                    "contract": "MoneyMarket",
+                    "label": "supplyIndex",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 6,
+                    "contract": "MoneyMarket",
+                    "label": "totalBorrows",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 7,
+                    "contract": "MoneyMarket",
+                    "label": "borrowRateMantissa",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                },
+                {
+                    "astId": 8,
+                    "contract": "MoneyMarket",
+                    "label": "borrowIndex",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 2592
+        },
+        "address[]": {
+            "base": "address",
+            "encoding": "dynamic_array",
+            "label": "address[]",
+            "numberOfBytes": "32"
+        },
+        "Exponential.Exp": {
+            "encoding": "inplace",
+            "label": "Exponential.Exp",
+            "members": [
+                {
+                    "astId": 0,
+                    "contract": "MoneyMarket",
+                    "label": "mantissa",
+                    "offset": 0,
+                    "slot": 0,
+                    "type": "uint256"
+                }
+            ],
+            "numberOfBytes": 32
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0xc4ff55a4329f84f9bf0f5619998ab570481ebb48": {
+        "logic": [
+            {
+                "address": "0xc4ff55a4329f84f9bf0f5619998ab570481ebb48",
+                "contractName": "SorbettoFragola",
+                "mainContractPath": "0xc4ff55a4329f84f9bf0f5619998ab570481ebb48/contracts/0xc4ff55a4329f84f9bf0f5619998ab570481ebb48/SorbettoFragola.sol",
+                "compilerVersion": "v0.7.6+commit.7338295f"
+            }
+        ]
+    }
+}

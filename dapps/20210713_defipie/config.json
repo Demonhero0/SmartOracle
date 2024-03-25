@@ -1,0 +1,12 @@
+{
+    "0xa8be87c8ec022e1f27454b379214b18b568570ae": {
+        "logic": [
+            {
+                "address": "0x897540454fe376a747e009189d2912f1ce110949",
+                "contractName": "PErc20Delegate",
+                "mainContractPath": "0xa8be87c8ec022e1f27454b379214b18b568570ae/contracts/0x897540454fe376a747e009189d2912f1ce110949/contracts/PErc20Delegate.sol",
+                "compilerVersion": "v0.7.4+commit.3f05b770"
+            }
+        ]
+    }
+}

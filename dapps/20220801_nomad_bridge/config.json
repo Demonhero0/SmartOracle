@@ -1,0 +1,12 @@
+{
+    "0x5d94309e5a0090b165fa4181519701637b6daeba": {
+        "logic": [
+            {
+                "address": "0xb92336759618f55bd0f8313bd843604592e27bd8",
+                "contractName": "Replica",
+                "mainContractPath": "0x5d94309e5a0090b165fa4181519701637b6daeba/contracts/0xb92336759618f55bd0f8313bd843604592e27bd8/packages/contracts-core/contracts/Replica.sol",
+                "compilerVersion": "v0.7.6+commit.7338295f"
+            }
+        ]
+    }
+}

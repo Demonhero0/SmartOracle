@@ -1,0 +1,12 @@
+{
+    "0xc1ced83d4dc4c63e92f79b9447981f3be5d53c83": {
+        "logic": [
+            {
+                "address": "0xc1ced83d4dc4c63e92f79b9447981f3be5d53c83",
+                "contractName": "ArrayFinance",
+                "mainContractPath": "0xc1ced83d4dc4c63e92f79b9447981f3be5d53c83/contracts/0xc1ced83d4dc4c63e92f79b9447981f3be5d53c83/ArrayFinance.sol",
+                "compilerVersion": "v0.8.0+commit.c7dfd78e"
+            }
+        ]
+    }
+}

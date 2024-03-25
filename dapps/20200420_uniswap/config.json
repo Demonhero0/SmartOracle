@@ -1,0 +1,12 @@
+{
+    "0xffcf45b540e6c9f094ae656d2e34ad11cdfdb187": {
+        "logic": [
+            {
+                "address": "0x2157a7894439191e520825fe9399ab8655e0f708",
+                "contractName": "Vyper_contract",
+                "mainContractPath": "0xffcf45b540e6c9f094ae656d2e34ad11cdfdb187/contracts/0x2157a7894439191e520825fe9399ab8655e0f708/Vyper_contract.vy",
+                "compilerVersion": "vyper:0.1.0b4"
+            }
+        ]
+    }
+}

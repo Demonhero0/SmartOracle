@@ -1,0 +1,12 @@
+{
+    "0x2320a28f52334d62622cc2eafa15de55f9987ed9": {
+        "logic": [
+            {
+                "address": "0x2320a28f52334d62622cc2eafa15de55f9987ed9",
+                "contractName": "Revest",
+                "mainContractPath": "0x2320a28f52334d62622cc2eafa15de55f9987ed9/contracts/0x2320a28f52334d62622cc2eafa15de55f9987ed9/contracts/Revest.sol",
+                "compilerVersion": "v0.8.4+commit.c7e474f2"
+            }
+        ]
+    }
+}

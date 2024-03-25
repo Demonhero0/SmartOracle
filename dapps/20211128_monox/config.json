@@ -1,0 +1,12 @@
+{
+    "0xc36a7887786389405ea8da0b87602ae3902b88a1": {
+        "logic": [
+            {
+                "address": "0x66e7d7839333f502df355f5bd87aea24bac2ee63",
+                "contractName": "Monoswap",
+                "mainContractPath": "0xc36a7887786389405ea8da0b87602ae3902b88a1/contracts/0x66e7d7839333f502df355f5bd87aea24bac2ee63/contracts/Monoswap.sol",
+                "compilerVersion": "v0.7.6+commit.7338295f"
+            }
+        ]
+    }
+}
